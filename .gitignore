@@ -1,4 +1,4 @@
 /*
 !.gitignore
-/episode_description/**
-/episode_moveit_config/**
+!/episode_description/
+!/episode_moveit_config/

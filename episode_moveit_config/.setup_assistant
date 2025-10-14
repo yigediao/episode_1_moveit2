@@ -1,0 +1,25 @@
+moveit_setup_assistant_config:
+  urdf:
+    package: episode_description
+    relative_path: urdf/episode_urdf_0523.urdf
+  srdf:
+    relative_path: config/episode_urdf_0523.srdf
+  package_settings:
+    author_name: Chao Xie
+    author_email: xie.chao@ufl.edu
+    generated_timestamp: 1758063294
+  control_xacro:
+    command:
+      - position
+    state:
+      - position
+      - velocity
+  modified_urdf:
+    xacros:
+      - control_xacro
+  control_xacro:
+    command:
+      - position
+    state:
+      - position
+      - velocity
